@@ -49,7 +49,7 @@ namespace Olimpo_XIII
             }
             else
             {
-                Lbl_message.Text = "Não encontrador, clique em 'Novo usuário'";
+                Lbl_message.Text = "Não encontrado, clique em 'Novo usuário'";
             }
         }
 
@@ -98,7 +98,9 @@ namespace Olimpo_XIII
 
         private void LblLinkRegister_Load(object sender, EventArgs e)
         {
-
+        }
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
         }
     }
 }

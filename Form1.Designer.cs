@@ -83,7 +83,7 @@
             // BtnSave
             // 
             this.BtnSave.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSave.Location = new System.Drawing.Point(105, 341);
+            this.BtnSave.Location = new System.Drawing.Point(105, 340);
             this.BtnSave.Name = "BtnSave";
             this.BtnSave.Size = new System.Drawing.Size(117, 32);
             this.BtnSave.TabIndex = 4;
@@ -94,10 +94,12 @@
             // Lbl_message
             // 
             this.Lbl_message.AutoSize = true;
-            this.Lbl_message.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_message.Location = new System.Drawing.Point(61, 364);
+            this.Lbl_message.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.Lbl_message.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_message.ForeColor = System.Drawing.Color.Red;
+            this.Lbl_message.Location = new System.Drawing.Point(39, 405);
             this.Lbl_message.Name = "Lbl_message";
-            this.Lbl_message.Size = new System.Drawing.Size(0, 21);
+            this.Lbl_message.Size = new System.Drawing.Size(0, 15);
             this.Lbl_message.TabIndex = 5;
             this.Lbl_message.Click += new System.EventHandler(this.label3_Click);
             // 
@@ -123,27 +125,28 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.panel2.BackColor = System.Drawing.Color.SteelBlue;
             this.panel2.Controls.Add(this.BtnSave);
+            this.panel2.Controls.Add(this.Lbl_message);
             this.panel2.Controls.Add(this.panel1);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.linkLabel1);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.TxtPass);
             this.panel2.Controls.Add(this.TxtLogin);
-            this.panel2.Location = new System.Drawing.Point(12, 12);
+            this.panel2.Location = new System.Drawing.Point(13, 12);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(327, 431);
             this.panel2.TabIndex = 8;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // LblLinkRegister
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Window;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(351, 455);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.Lbl_message);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "LblLinkRegister";
             this.Text = "Form1";
@@ -151,7 +154,6 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
