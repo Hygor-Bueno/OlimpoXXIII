@@ -1,0 +1,14 @@
+C:\Users\Administrator\source\repos\Olimpo_XIII\bin\Debug\Olimpo_XIII.exe.config
+C:\Users\Administrator\source\repos\Olimpo_XIII\bin\Debug\Olimpo_XIII.exe
+C:\Users\Administrator\source\repos\Olimpo_XIII\bin\Debug\Olimpo_XIII.pdb
+C:\Users\Administrator\source\repos\Olimpo_XIII\obj\Debug\Olimpo_XIII.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\Olimpo_XIII\obj\Debug\Olimpo_XIII.Properties.Resources.resources
+C:\Users\Administrator\source\repos\Olimpo_XIII\obj\Debug\Olimpo_XIII.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\Olimpo_XIII\obj\Debug\Olimpo_XIII.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Olimpo_XIII\obj\Debug\Olimpo_XIII.exe
+C:\Users\Administrator\source\repos\Olimpo_XIII\obj\Debug\Olimpo_XIII.pdb
+C:\Users\Administrator\source\repos\Olimpo_XIII\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\source\repos\Olimpo_XIII\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\source\repos\Olimpo_XIII\obj\Debug\Olimpo_XIII.csproj.CopyComplete
+C:\Users\Administrator\source\repos\Olimpo_XIII\obj\Debug\Olimpo_XIII.LblLinkRegister.resources
+C:\Users\Administrator\source\repos\Olimpo_XIII\obj\Debug\Olimpo_XIII.NewUser.resources
